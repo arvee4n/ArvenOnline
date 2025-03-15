@@ -1,0 +1,187 @@
+@keyframes hovering {
+ from {
+   margin-bottom: 3px;
+ }
+ to {
+   margin-bottom: 0;
+ }
+}
+body {
+  min-height: 400px;
+}
+.allMessages {
+ display: flex;
+ gap: 2.5vh;
+ background: #EEE;
+ border: 1px solid rgb(208, 208, 191);
+ font-size: 8pt;
+ border-radius: 0 3px 3px 3px;
+ margin: 5px;
+ line-height: 9pt;
+ position: relative;
+ color: #000;
+ width: auto;
+ padding: 5px;
+}
+br {
+ height: 6pt;
+}
+.allMessages:hover:after {
+ content: ' ';
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ border-radius: inherit;
+ background-color: rgba(0, 0, 0, 0.05);
+ pointer-events: none;
+}
+.senderInfo {
+ display: block;
+ margin: 2px;
+ font-style: italic;
+ font-weight: bold;
+ text-align: justify;
+}
+/* .sent > .senderInfo {
+   text-align: right;
+}
+ .recieved > .senderInfo {
+   text-align: left;
+}
+ */
+#background {
+  background-color: #000;
+}
+.msgBody {
+ text-align: justify;
+ cursor: text;
+}
+#input {
+ color: #333;
+ background-color: #CCC;
+ border: none;
+ font-size: 8pt;
+ padding: 5px;
+ width: calc(100% - 10px);
+ border-radius: 0;
+ margin: 0;
+ border-top: solid 1px #555;
+}
+#input:focus {
+ outline: dotted 1px #000;
+}
+#input:empty::before {
+ content: "Leave a comment...";
+}
+a {
+ font-family: inherit;
+}
+#timestamp {
+ color: #AAA;
+ font-size: 8pt;
+}
+.badge {
+  display: none;
+}
+.senderInfo:has(.owner), .senderInfo:has(.mod) {
+ font-weight: bold;
+ text-decoration: underline;
+ text-decoration-style: dotted;
+ text-decoration-color: #000;
+}
+#top_banner {
+ display: none;
+}
+#settings {
+ filter: invert(50%);
+ opacity: 0.75;
+}
+#settings:hover {
+ filter: invert(10%);
+}
+blockquote {
+ font-style: italic;
+}
+#loadMore {
+ font-size: 10pt;
+}
+.pinned {
+ position: sticky;
+ top: 0;
+ z-index: 2;
+ border-radius: 5px;
+ max-height: 15vh;
+ overflow: hidden;
+ cursor: default;
+}
+.pinned:hover {
+ max-height: none;
+ height: auto;
+ box-shadow: 0px 2px 5px #000;
+ background-color: #FFF;
+}
+.pinned::before {
+ content: "\23F7";
+ text-align: center;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ z-index: 2;
+ width: 100%;
+ height: 15vh;
+ max-height: 15vh;
+ animation: 500ms linear infinite alternate hovering;
+}
+.pinned:hover::before {
+ display: none;
+}
+.pinned > .allMessages {
+ box-shadow: 0 0 3px #000;
+}
+.pinned > .allMessages:hover {
+ box-shadow: none;
+}
+.pinned > .allMessages::before {
+ content: " ";
+ display: block;
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 15vh;
+ max-height: 100%;
+ background: linear-gradient(transparent, transparent, #333);
+ opacity: 0.75 
+}
+.pinned > .allMessages:hover::before {
+ display: none;
+}
+.pinned:after {
+ display: inline-block;
+ position: absolute;
+ right: 2px;
+ top: 2px;
+ content: "📌";
+}
+#replyBanner {
+  font-size: 8pt;
+}
+#is_typing {
+  background-color: #FFF;
+  border: solid 1px #333;
+  height: 15px;
+  border-radius: 8px;
+  left: calc(50% - 15px);
+}
+#is_typing > span {
+  background-color: #333;
+}
+pre:has(>code){
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+░█████╗░██████╗░██╗░░░██╗███████╗███████╗
+██╔══██╗██╔══██╗██║░░░██║██╔════╝██╔════╝
+███████║██████╔╝╚██╗░██╔╝█████╗░░█████╗░░
+██╔══██║██╔══██╗░╚████╔╝░██╔══╝░░██╔══╝░░
+██║░░██║██║░░██║░░╚██╔╝░░███████╗███████╗
+╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚══════╝
+Hey Feller...
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arven | Minecraft</title>
+    <link rel="icon" type="images/x-icon" href="../../media/misc/logo/arvee.png">
+    <link rel="stylesheet" href="minecraft.css">
+    <script src="https://chattable.neocities.org/scripts/main.min.js"></script>
+    </head>
+    
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".movie-list img");
+
+    images.forEach(img => {
+        img.addEventListener("click", function() {
+            if (this.classList.contains("enlarged")) {
+                this.classList.remove("enlarged"); // Shrink back
+            } else {
+                document.querySelectorAll(".movie-list img").forEach(image => {
+                    image.classList.remove("enlarged"); // Remove from others
+                });
+                this.classList.add("enlarged"); // Enlarge clicked image
+            }
+        });
+    });
+});
+</script>
+
+    
+<body>
+    <div class="container">
+        <div class="header">
+        <img src="../../media/misc/banner/tribalWhite.png" width="800px"/>
+        </div>
+        <!--Navigation-->
+        <div class="pageTitle"><img src="../../media/misc/pixels/cake.gif"><Strong> MINECRAFT </Strong><img src="../../media/misc/pixels/cake.gif"></div>
+        <div class="section-header"><a href="../shrines.html">Back</a></div>
+        
+        <!-- Main Layout Table -->
+        <table>
+            <tr>
+                <!-- Middle Column -->
+                <td width="60%">
+                    <div class="section-header"><strong>Pictures</strong></div>
+                    <div class="movie-list">
+                        <img src="../../media/shrines/minecraft/behind.webp">
+                        <img src="../../media/shrines/minecraft/lavaWater.webp">
+                        <img src="../../media/shrines/minecraft/illegal.webp">
+                        <img src="../../media/shrines/minecraft/pigman.webp">
+                        <img src="../../media/shrines/minecraft/waterRack.webp">
+                        <img src="../../media/shrines/minecraft/horizon.webp">
+                        <img src="../../media/shrines/minecraft/windmill.webp">
+                        <img src="../../media/shrines/minecraft/signs.webp">
+                        <img src="../../media/shrines/minecraft/spit.webp">
+                        <img src="../../media/shrines/minecraft/rasheed.webp">
+                        <img src="../../media/shrines/minecraft/end.webp">
+                        <img src="../../media/shrines/minecraft/nigelSky.webp">
+                        <img src="../../media/shrines/minecraft/sky.webp">
+                        <img src="../../media/shrines/minecraft/lowtiergod.webp">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+	<!--Marquee for anything ig
+		<div class="marquee">
+	    <img src="media/misc/blinkies/aliceinchains.gif">
+		<img src="media/misc/blinkies/contagptv.gif">
+		<img src="media/misc/blinkies/deftones.gif">
+		<img src="media/misc/blinkies/korn.gif">
+		<img src="media/misc/blinkies/linkinpark.gif">
+		<img src="media/misc/blinkies/paramore.gif">
+		<img src="media/misc/blinkies/ptv.gif">
+		<img src="media/misc/blinkies/radiohead.gif">
+		<img src="media/misc/blinkies/smashingpumpkin.gif">
+		<img src="media/misc/blinkies/soad.gif">-->
+    </div>
+</body>
+</html>

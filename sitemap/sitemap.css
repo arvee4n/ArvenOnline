@@ -1,0 +1,53 @@
+
+
+#main-window {
+    --window-background-color: #c22c27;
+    /*box-sizing: border-box;*/
+    max-width: calc(100vw - 8px * 2); 
+    width: 400px;
+    /*position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);*/
+    margin: 8px;
+}
+
+        .container {
+            width: 950px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: transparent;
+            border: 2px solid #555;
+            box-shadow: 0px 0px 10px #000;
+        }
+
+        .header {
+            background-color: transparent;
+            padding: 15px;
+            border-bottom: 5px;
+        }
+
+body {
+            margin: 0;
+            padding: 0; 
+            background-image: url('../media/misc/backgrounds/stars.gif');
+            background-attachment: fixed;
+        }
+
+#rest-of-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-direction: column;
+} 
+
+.menu-icon {
+    height: 1.5em;
+    aspect-ratio: 1/1;
+    vertical-align: -25%;
+}
+
+s {
+    opacity: 0.6;
+}
