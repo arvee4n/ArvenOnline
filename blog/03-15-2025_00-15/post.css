@@ -1,5 +1,5 @@
       /*@font-face { font-family: Typewriter; src: url('1942.ttf'); } */
-@font-face { font-family: Pixelated; src: url('../fonts/ms-sans-serif-1.ttf'); }
+@font-face { font-family: Pixelated; src: url('../../fonts/ms-sans-serif-1.ttf'); }
 html {
   font-family: Pixelated, sans-serif;
   overflow-y: scroll;
@@ -7,46 +7,31 @@ html {
 	scrollbar-width: thin;
 }
 
-html, body{
-  margin:0px;
-  height:100%;
-}
-
-.crt-overlay {
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-height: 100%;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
-  background-size: 100% 4px, 30px 100%;
-  z-index: 100;
-}
-
 body {
             margin: 0;
             padding: 0; 
-            background-image: url('../media/misc/backgrounds/stars.gif');
+            background-image: url('../../media/misc/backgrounds/stars.gif');
             background-attachment: fixed;
             background-position: center center;
+        }
+
+        h6 {   
+            color: #848386;
+            font-size: 10px;
+            margin-bottom: 0px;
         }
 
         .container {
             width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-image: url('../media/misc/backgrounds/line.gif');
+            background-image: url('../../media/misc/backgrounds/line.gif');
             border: 2px solid #555;
             box-shadow: 0px 0px 10px #000;
         }
 
         .header {
-            background-image: url('../media/misc/backgrounds/metal.jpg');
+            background-image: url('../../media/misc/backgrounds/metal.jpg');
             text-align: center;
             border-bottom: 5px;
         }
@@ -86,7 +71,7 @@ body {
 
         .profile-picture {
             text-align: center;
-            background-image: url('../media/misc/backgrounds/web.png')
+            background-image: url('../../media/misc/backgrounds/web.png')
         }
 
         .profile-picture img {
@@ -97,7 +82,7 @@ body {
         }
 
         .pageTitle {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
             font-size: 18px;
             padding: 5px;
             text-align: center;
@@ -107,7 +92,7 @@ body {
         }
 
         .section-header {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
             font-size: 18px;
             padding: 5px;
             text-align: left;
@@ -117,13 +102,13 @@ body {
         }
 
         .about {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
             color: #fff;
             padding: 7px;
         }
 
         .blinkies {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
             color: #fff;
             padding: 7px;
         }
@@ -134,20 +119,50 @@ body {
         }
 
         .navigate {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
             color: #693275;
             padding: 5px;
             display: flex;
             justify-content: left;
         }
 
-        .movie-list img {
-            background-color: #333;
-            width: 160px;
-            height: 240px;
+        .friends-list img {
+            width: 50px;
+            height: 50px;
             margin: 5px;
             border: 2px solid #555;
         }
+
+.movie-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-list img {
+    transition: transform 0.3s ease-in-out;
+    background-color: #333;
+    width: 47.5%;
+    margin: 5px;
+    border: 2px solid #555;
+    transition: transform 0.25s ease;
+    cursor: pointer;
+}
+
+.movie-list img.enlarged {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: auto;
+    max-height: 90%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    border: 3px solid white;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
 
         a {
             color: #693275;
@@ -173,7 +188,7 @@ body {
         /* radio */
 
         #lastfm {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/misc/backgrounds/web.png');
            font: inherit;
 	       display: grid;
 	       grid-template-columns: max-content 1fr;

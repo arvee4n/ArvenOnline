@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+░█████╗░██████╗░██╗░░░██╗███████╗███████╗
+██╔══██╗██╔══██╗██║░░░██║██╔════╝██╔════╝
+███████║██████╔╝╚██╗░██╔╝█████╗░░█████╗░░
+██╔══██║██╔══██╗░╚████╔╝░██╔══╝░░██╔══╝░░
+██║░░██║██║░░██║░░╚██╔╝░░███████╗███████╗
+╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚══════╝
+Hey Feller...
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arven | Blog - 3/15/2025</title>
+    <link rel="icon" type="images/x-icon" href="../../media/misc/logo/arvee.png">
+    <link rel="stylesheet" href="post.css">
+    <script src="https://chattable.neocities.org/scripts/main.min.js"></script>
+    </head>
+    
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".movie-list img");
+
+    images.forEach(img => {
+        img.addEventListener("click", function() {
+            if (this.classList.contains("enlarged")) {
+                this.classList.remove("enlarged"); // Shrink back
+            } else {
+                document.querySelectorAll(".movie-list img").forEach(image => {
+                    image.classList.remove("enlarged"); // Remove from others
+                });
+                this.classList.add("enlarged"); // Enlarge clicked image
+            }
+        });
+    });
+});
+</script>
+
+    
+<body>
+    <div class="container">
+        <div class="header">
+        <img src="../../media/misc/banner/tribalWhite.png" width="800px"/>
+        </div>
+        <!--Navigation-->
+        <div class="pageTitle"><img src="../../media/misc/pixels/laptop.gif" style="max-width:20px;"><Strong> BLOG - March 15, 2025 </Strong><img src="../../media/misc/pixels/laptop.gif" style="max-width:20px;"></div>
+        <div class="section-header"><a href="../blog.html">Back</a></div>
+        
+        <!-- Main Layout Table -->
+        <table>
+            <tr>
+                <!-- Middle Column -->
+                <td width="60%">
+                    <div class="section-header"><strong>First Entry!!!</strong></div>
+                    <div class="about">
+                        <p>Hello everyone,</p>
+                        <p>I've finally set up this blog page. Although it is super basic, it is now (sorta) functional. I will post here more in the future about some things I am doing with the website or other projects.</p>
+                        <p><img src="../../media/misc/log.webp"</p>
+                        <p><h6>March 15, 2025 00:50</h6></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
