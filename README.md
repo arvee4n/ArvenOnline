@@ -11,3 +11,9 @@ On here you will find this such as:
 The site will be frequently updated and I plan on adding many more features and gradually
 cleaning up the site.
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+TO DO:
+1. Outfit Creator
+	- Outfits based on what I own
+2. Virtual Pet
+	- A spotted black cat that walks around the webpage
+	- Might not work on github idk
