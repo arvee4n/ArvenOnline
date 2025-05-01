@@ -127,7 +127,7 @@ const Components = {
               // Initialize chattable after components are loaded
         document.addEventListener('DOMContentLoaded', () => {
             chattable.initialize({
-                stylesheet: "chattable.css"
+                stylesheet: "/chattable.css"
             });
         });
       </script>
