@@ -7,6 +7,7 @@ const Components = {
       <div class="header">
         <img src="/media/misc/banner/tribalWhite.png" width="800px"/>
       </div>
+      <style>* {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2012/02/11/chrome-pointer.html" target="_blank" title="Chrome Pointer"><img src="https://cur.cursors-4u.net/cursor.png" alt="Chrome Pointer" style="position:absolute; top: 0px; right: 0px;"/></a>
     `,
     
     // Left Column component
