@@ -81,6 +81,13 @@ Hey Feller...
 				location.replace("../wishlist/wishList.html");				
 			}
 		});
+
+              // Initialize chattable after components are loaded
+              document.addEventListener('DOMContentLoaded', () => {
+            chattable.initialize({
+                stylesheet: "/chattable.css"
+            });
+        });
 	</script>
     <div data-component="footer"></div>
 	<!--Marquee for anything ig

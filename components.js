@@ -122,15 +122,6 @@ const Components = {
       <div class="footerR">
         <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif" alt="Magneton">
       </div>
-
-      <script>
-              // Initialize chattable after components are loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            chattable.initialize({
-                stylesheet: "/chattable.css"
-            });
-        });
-      </script>
     `
   };
   

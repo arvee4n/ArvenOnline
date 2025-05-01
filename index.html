@@ -121,6 +121,13 @@ Hey Feller...
                 location.replace("../wishlist/wishList.html");				
             }
         });
+
+              // Initialize chattable after components are loaded
+              document.addEventListener('DOMContentLoaded', () => {
+            chattable.initialize({
+                stylesheet: "/chattable.css"
+            });
+        });
     </script>
 </body>
 </html>
