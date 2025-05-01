@@ -32,7 +32,7 @@ const Components = {
       <div class="section-header"><img src="/media/misc/pixels/chainrt.gif"style="max-height:20px;"><Strong> Links </Strong><img src="/media/misc/pixels/chainrt.gif" style="max-height:20px;"></div>
       <div class="about">
         <p><a href="https://pcpartpicker.com/list/7379qR">Current PC Specs</a></p>
-        <a href="https://discord.gg/52EDUZNHqu"><img src="/media/misc/buttons/discord_now.gif"></a>
+        <a href="https://spacehey.com/arveecom"><img src="/media/misc/buttons/spacehey.jpg"></a>
         <a href="https://steamcommunity.com/id/rv4n/"><img src="/media/misc/buttons/steam.gif"></a>
         <a href="https://www.last.fm/user/arvee4n"><img src="/media/misc/buttons/lastfm.png"></a>
         <a href="https://open.spotify.com/user/6yahfuxy2yzmtklsjca1aiw1n?si=bbb3032a27ce4cb6"><img src="/media/misc/buttons/spotify.gif"></a>
