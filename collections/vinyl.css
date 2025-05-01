@@ -161,6 +161,12 @@ body {
             border: 2px solid #555;
         }
 
+        .movie-list img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px 5px rgba(255, 255, 255);
+
+        }
+
         a {
             color: #693275;
             text-decoration: underline;
