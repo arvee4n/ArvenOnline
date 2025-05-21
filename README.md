@@ -17,17 +17,20 @@ The site will be frequently updated and I plan on adding many more features and 
 
 TO DO:
 
-1. 1. [ ] Animate lists
+1. 1. [ ] Optimize site
+   - I think the animated pictures are slowing it down
+
+2. 2. [ ] Animate lists
    - [x] Artists
    - [ ] Movie
    - [x] Games
    - [ ] Manga
 
 
-2. 2. [ ] Outfit Creator
+3. 3. [ ] Outfit Creator
    - Outfits based on what I own
 
 
-3. 3. [ ] Virtual Pet
+4. 4. [ ] Virtual Pet
    - A spotted black cat that walks around the webpage
    - Might not work on github idk
