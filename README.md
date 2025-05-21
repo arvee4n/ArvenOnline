@@ -18,7 +18,6 @@ The site will be frequently updated and I plan on adding many more features and 
 TO DO:
 
 1. 1. [ ] Optimize site
-   - I think the animated pictures are slowing it down
 
 2. 2. [ ] Animate lists
    - [x] Artists
