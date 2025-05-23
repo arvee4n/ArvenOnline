@@ -70,6 +70,9 @@ const Components = {
               <ul>
                 <summary><a href="/shrines/webfishing/webfishing.html">Webfishing</a></summary>
               </ul>
+              <ul>
+                <summary><a href="/shrines/rdr2/rdr2.html">Red Dead Redemption II</a></summary>
+              </ul>
             </details>
             <summary><a href="/sitemap/sitemap.html">Sitemap</a></summary>
           </ul>
