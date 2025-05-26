@@ -20,7 +20,7 @@ const Components = {
         <p><strong>Name:</strong> Ryan</p>
         <p><strong>Age:</strong> 17</p>
         <p><strong>Location:</strong> California</p>
-        <p><strong>Status:</strong> Trying to convince people to make websites...</p>
+        <p><strong>Status:</strong> Might buy some more RAM...</p>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/headphones.gif"><strong> Currently Playing </strong><img src="/media/misc/pixels/headphones.gif"></div>
@@ -44,7 +44,7 @@ const Components = {
       <div class="section-header"><img src="/media/misc/pixels/warning.webp"><strong> Embed My Button! </strong><img src="/media/misc/pixels/warning.webp" style="max-width:20px;"></div>
       <div class="about">
         <p><a href="https://arvenonline.me/"><img src="/media/misc/buttons/arvenButton.gif" alt"button"style="text-align: center; display: block; margin-left: auto; margin-right: auto;"></a></p>
-        <textarea style="width: calc(100% - 8px);" readonly=""><a href="https://arvenonline.me/"><img src="https://arvenonline.me/media/misc/buttons/arvenButton.gif"</a></textarea>
+        <textarea style="width: calc(100% - 8px);" readonly=""><a href="https://arvenonline.me/"><img src="https://arvenonline.me/media/misc/buttons/arvenButton.gif"></a></textarea>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/teeth.gif" style="max-height:20px;"><strong> Live Chat </strong><img src="/media/misc/pixels/teeth.gif" style="max-height:20px;"></div>
