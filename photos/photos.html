@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+░█████╗░██████╗░██╗░░░██╗███████╗███████╗
+██╔══██╗██╔══██╗██║░░░██║██╔════╝██╔════╝
+███████║██████╔╝╚██╗░██╔╝█████╗░░█████╗░░
+██╔══██║██╔══██╗░╚████╔╝░██╔══╝░░██╔══╝░░
+██║░░██║██║░░██║░░╚██╔╝░░███████╗███████╗
+╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚══════╝
+Hey Feller...
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArvenOnline | Photos</title>
+    <link rel="icon" type="images/x-icon" href="../media/misc/logo/arvee.png">
+    <link rel="stylesheet" href="photos.css">
+    <script src="https://chattable.neocities.org/scripts/main.min.js"></script>
+    </head>
+    
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".movie-list img");
+
+    images.forEach(img => {
+        img.addEventListener("click", function() {
+            if (this.classList.contains("enlarged")) {
+                this.classList.remove("enlarged"); // Shrink back
+            } else {
+                document.querySelectorAll(".movie-list img").forEach(image => {
+                    image.classList.remove("enlarged"); // Remove from others
+                });
+                this.classList.add("enlarged"); // Enlarge clicked image
+            }
+        });
+    });
+});
+</script>
+
+    
+<body>
+    <div class="container">
+        <div class="header">
+        <img src="../media/misc/banner/tribalWhite.png" width="800px"/>
+        </div>
+        <!--Navigation-->
+        <div class="pageTitle"><Strong> PHOTOS </Strong></div>
+        <div class="section-header"><a href="../index.html">HOME</a></div>
+        
+        <!-- Main Layout Table -->
+        <table>
+            <tr>
+                <!-- Middle Column -->
+                <td width="60%">
+                    <div class="section-header"><strong>Pictures</strong></div>
+                    <div class="movie-list">
+                        <img src="../media/photos/connect2.jpg">
+                        <img src="../media/photos/guidance3.png">
+                        <img src="../media/photos/guidance2.JPG">
+                        <img src="../media/photos/guidance1.png">
+                        <img src="../media/photos/will3.png">
+                        <img src="../media/photos/will2.PNG">
+                        <img src="../media/photos/will1.png">
+                        <img src="../media/photos/full4.JPEG">
+                        <img src="../media/photos/full3.JPG">
+                        <img src="../media/photos/full2.JPG">
+                        <img src="../media/photos/full1.JPG">
+                        <img src="../media/photos/return3.JPG">
+                        <img src="../media/photos/return2.JPG">
+                        <img src="../media/photos/return1.JPG">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
