@@ -121,7 +121,7 @@ const Components = {
 
     lastupdated: `
     <div class="section-header">
-      <p><h6>Last site update: May 28, 2025 23:25</h6></p>
+      <p><h6>Last site update: May 28, 2025 23:31</h6></p>
       <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a></h6></p>
       </div>
     `,
