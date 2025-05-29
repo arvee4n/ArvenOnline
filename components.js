@@ -118,6 +118,12 @@ const Components = {
         <img src="/media/misc/blinkies/supernatural.gif">
       </div>
     `,
+
+    lastupdated: `
+    <div class="about">
+      <p><h6>Last site update: May 28, 2025 23:00</h6></p>
+      </div>
+    `,
     
     // Footer component
     footer: `
