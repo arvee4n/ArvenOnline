@@ -38,7 +38,7 @@ const Components = {
         <a href="https://www.last.fm/user/arvee4n"><img src="/media/misc/buttons/lastfm.png"></a>
         <a href="https://open.spotify.com/user/6yahfuxy2yzmtklsjca1aiw1n?si=bbb3032a27ce4cb6"><img src="/media/misc/buttons/spotify.gif"></a>
         <a href="https://www.youtube.com/@Arvee4n"><img src="/media/misc/buttons/ytbutton.gif"></a>
-        <a href="https://www.instagram.com/rsandrxmeda/"><img src="/media/misc/buttons/instagam.webp"></a>
+        <a href="https://www.twitch.tv/arveecom"><img src="/media/misc/buttons/twitch.jpg"></a>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/warning.webp"><strong> Embed My Button! </strong><img src="/media/misc/pixels/warning.webp" style="max-width:20px;"></div>
@@ -121,7 +121,7 @@ const Components = {
 
     lastupdated: `
     <div class="section-header">
-      <p><h6>Last site update: May 28, 2025 23:31</h6></p>
+      <p><h6>Last site update: July 7, 2025 13:40</h6></p>
       <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a></h6></p>
       </div>
     `,
