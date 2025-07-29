@@ -20,7 +20,7 @@ const Components = {
         <p><strong>Name:</strong> Ryan</p>
         <p><strong>Age:</strong> 17</p>
         <p><strong>Location:</strong> California</p>
-        <p><strong>Status:</strong> Might buy some more RAM...</p>
+        <p><strong>Status:</strong> New pc on the way...</p>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/headphones.gif"><strong> Currently Playing </strong><img src="/media/misc/pixels/headphones.gif"></div>
@@ -86,9 +86,6 @@ const Components = {
         <a href="https://twelvemen.neocities.org/index.html"><img src="https://twelvemen.neocities.org/12men.gif"></a>
         <a href="https://shinyexe.neocities.org"><img src="https://shinyexe.neocities.org/sprites/mybutton1.gif"></a>
         <a href="https://iframe.chat/"><img src="https://iframe.chat/chattable-alt.gif" title="Add a stream chat to your website free with Chattable" alt="Chattable" /></a>
-        <a href="https://www.instagram.com/wearwojo/"><img src="/media/misc/buttons/wojo.webp"</a>
-        <a href="https://projectcomte.com/"><img src="/media/misc/buttons/comte.webp"</a>
-        <a href ="https://www.instagram.com/fumi.wrld/"><img src="/media/misc/buttons/fumi.webp"></a>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/starblink.gif" style="max-height:20px;"><strong> Blinkies </strong><img src="/media/misc/pixels/starblink.gif" style="max-height:20px;"></div>
@@ -117,11 +114,12 @@ const Components = {
         <img src="/media/misc/blinkies/red-dead-redemption.gif">
         <img src="/media/misc/blinkies/supernatural.gif">
       </div>
+      <iframe src="https://discord.com/widget?id=1352915090680057877&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     `,
 
     lastupdated: `
     <div class="section-header">
-      <p><h6>Last site update: July 7, 2025 13:40</h6></p>
+      <p><h6>Last site update: July 28, 2025</h6></p>
       <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a></h6></p>
       </div>
     `,
