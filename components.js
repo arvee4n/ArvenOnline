@@ -50,7 +50,7 @@ const Components = {
       <div class="section-header"><img src="/media/misc/pixels/teeth.gif" style="max-height:20px;"><strong> Live Chat </strong><img src="/media/misc/pixels/teeth.gif" style="max-height:20px;"></div>
       <iframe src='https://iframe.chat/embed?chat=arvenChat' id='chattable' frameborder='none' style="height: 800px; width: 215px;"></iframe>
     `,
-    
+
     // Right Column component
     rightColumn: `
       <div class="section-header"><img src="/media/misc/pixels/compass.gif" style="max-height:20px;"><strong> Navigate </strong><img src="/media/misc/pixels/compass.gif" style="max-height:20px;"></div>
@@ -120,7 +120,7 @@ const Components = {
     lastupdated: `
     <div class="section-header">
       <p><h6>Last site update: July 28, 2025</h6></p>
-      <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a></h6></p>
+      <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a><a href=./blank.html>.</a></h6></p>
       </div>
     `,
     
