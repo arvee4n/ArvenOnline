@@ -18,9 +18,9 @@ const Components = {
       </div>
       <div class="about">
         <p><strong>Name:</strong> Ryan</p>
-        <p><strong>Age:</strong> 17</p>
+        <p><strong>Age:</strong> 18</p>
         <p><strong>Location:</strong> California</p>
-        <p><strong>Status:</strong> New pc on the way...</p>
+        <p><strong>Status:</strong> College stinks...</p>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/headphones.gif"><strong> Currently Playing </strong><img src="/media/misc/pixels/headphones.gif"></div>
@@ -32,13 +32,13 @@ const Components = {
   
       <div class="section-header"><img src="/media/misc/pixels/chainrt.gif"style="max-height:20px;"><Strong> Links </Strong><img src="/media/misc/pixels/chainrt.gif" style="max-height:20px;"></div>
       <div class="about">
-        <p><a href="https://pcpartpicker.com/list/7379qR">Current PC Specs</a></p>
-        <a href="https://spacehey.com/arveecom"><img src="/media/misc/buttons/spacehey.jpg"></a>
-        <a href="https://steamcommunity.com/id/rv4n/"><img src="/media/misc/buttons/steam.gif"></a>
+        <p><a href="https://pcpartpicker.com/list/cHfGFZ">Current PC Specs</a></p>
+        <a href="https://www.twitch.tv/arveecom"><img src="/media/misc/buttons/twitch.jpg"></a>
         <a href="https://www.last.fm/user/arvee4n"><img src="/media/misc/buttons/lastfm.png"></a>
+        <a href="https://steamcommunity.com/id/rv4n/"><img src="/media/misc/buttons/steam.gif"></a>
         <a href="https://open.spotify.com/user/6yahfuxy2yzmtklsjca1aiw1n?si=bbb3032a27ce4cb6"><img src="/media/misc/buttons/spotify.gif"></a>
         <a href="https://www.youtube.com/@Arvee4n"><img src="/media/misc/buttons/ytbutton.gif"></a>
-        <a href="https://www.twitch.tv/arveecom"><img src="/media/misc/buttons/twitch.jpg"></a>
+        <a href="https://spacehey.com/arveecom"><img src="/media/misc/buttons/spacehey.jpg"></a>
       </div>
       
       <div class="section-header"><img src="/media/misc/pixels/warning.webp"><strong> Embed My Button! </strong><img src="/media/misc/pixels/warning.webp" style="max-width:20px;"></div>
@@ -119,7 +119,7 @@ const Components = {
 
     lastupdated: `
     <div class="section-header">
-      <p><h6>Last site update: July 29, 2025</h6></p>
+      <p><h6>Last site update: November 4, 2025</h6></p>
       <p><h6>Check out the GitHub repo here: <a href="https://github.com/arvee4n/ArvenOnline">https://github.com/arvee4n/ArvenOnline</a><a href=./blank.html>.</a></h6></p>
       </div>
     `,
