@@ -8,7 +8,7 @@ On here you will find this such as:
 
 - My favorite music
 - My favorite games
-- My favorite books
+- My favorite shows
 - and much more
 
 The site will be frequently updated and I plan on adding many more features and gradually cleaning up the site.
@@ -17,19 +17,15 @@ The site will be frequently updated and I plan on adding many more features and 
 
 TO DO:
 
-1. 1. [ ] Optimize site
+1. 1. [ ] Optimize/Rewrite site
+   - Going to take up most of the workload
 
 2. 2. [ ] Animate lists
-   - [x] Artists
+   - [ ] Artists
    - [ ] Movie
-   - [x] Games
+   - [ ] Games
    - [ ] Manga
 
-
-3. 3. [ ] Outfit Creator
-   - Outfits based on what I own
-
-
-4. 4. [ ] Virtual Pet
-   - A spotted black cat that walks around the webpage
-   - Might not work on github idk
+3. 3. [ ] Virtual Pet
+   - A (black?) cat that walks around the webpage
+   - Might not work well idk
