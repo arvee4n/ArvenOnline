@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    background-image: url('/old-site/media/bg.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+header{
+    text-align: center;
+    font-size: 70px;
+    color: orangered;
+    background-color: rgb(32, 0, 0);
+}
+
+h1{
+    font-size: 30px;
+    background-color: rgb(32, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+}
+
+summary{
+    font-size: 30px;
+    color: greenyellow;
+    background-color: rgb(32, 0, 0);
+    text-decoration: underline;
+}
+
+details{
+    background-color: black;
+    color: orangered;
+}
+
+li{
+    font-size: 20px;
+    color: orangered;
+    background-color: rgb(32, 0, 0);
+}
+
+a{
+    color: greenyellow;
+}
