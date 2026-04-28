@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-image: url('/media/backgrounds/pits.gif');
+    background-image: url('../media/backgrounds/pits.gif');
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
