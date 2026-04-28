@@ -1,5 +1,5 @@
       /*@font-face { font-family: Typewriter; src: url('1942.ttf'); } */
-@font-face { font-family: Pixelated; src: url('../fonts/ms-sans-serif-1.ttf'); }
+@font-face { font-family: Pixelated; src: url('../../fonts/ms-sans-serif-1.ttf'); }
 html {
   font-family: Pixelated, sans-serif;
   overflow-y: scroll;
@@ -31,7 +31,7 @@ html, body{
 body {
             margin: 0;
             padding: 0; 
-            background-image: url('../media/misc/backgrounds/stars.gif');
+            background-image: url('../../media/backgrounds/stars.gif');
             background-attachment: fixed;
             background-position: center center;
         }
@@ -40,13 +40,13 @@ body {
             width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-image: url('../media/misc/backgrounds/line.gif');
+            background-image: url('../../media/backgrounds/lineWobble.gif');
             border: 2px solid #555;
             box-shadow: 0px 0px 10px #000;
         }
 
         .header {
-            background-image: url('../media/misc/backgrounds/metal.jpg');
+            background-image: url('../../media/backgrounds/metalOoze.jpg');
             text-align: center;
             border-bottom: 5px;
         }
@@ -86,7 +86,7 @@ body {
 
         .profile-picture {
             text-align: center;
-            background-image: url('../media/misc/backgrounds/web.png')
+            background-image: url('../../media/backgrounds/shatter.png')
         }
 
         .profile-picture img {
@@ -97,7 +97,7 @@ body {
         }
 
         .pageTitle {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
             font-size: 18px;
             padding: 5px;
             text-align: center;
@@ -107,7 +107,7 @@ body {
         }
 
         .section-header {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
             font-size: 18px;
             padding: 5px;
             text-align: left;
@@ -117,13 +117,13 @@ body {
         }
 
         .about {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
             color: #fff;
             padding: 7px;
         }
 
         .blinkies {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
             color: #fff;
             padding: 7px;
         }
@@ -134,7 +134,7 @@ body {
         }
 
         .navigate {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
             color: #693275;
             padding: 5px;
             display: flex;
@@ -173,7 +173,7 @@ body {
         /* radio */
 
         #lastfm {
-            background-image: url('../media/misc/backgrounds/web.png');
+            background-image: url('../../media/backgrounds/shatter.png');
            font: inherit;
 	       display: grid;
 	       grid-template-columns: max-content 1fr;

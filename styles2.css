@@ -1,0 +1,99 @@
+@font-face {
+  font-family: TimesNewPixel;
+  src: url(/fonts/TimesNewPixel.ttf);
+}
+@font-face {
+  font-family: DisrespectfulTeenagerFade;
+  src: url(/fonts/DisrespectfulTeenagerFade.ttf);
+}
+
+lastfm-tracks {
+  box-sizing: border-box;
+  border: 1px solid #290000;
+  height: 100em;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(/media/backgrounds/pits.gif);
+    font-family: TimesNewPixel;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+a{
+    color: greenyellow;
+}
+
+.banner{
+    display: flex;
+    background-image: url(/media/backgrounds/faces.gif);
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    margin: auto;
+    padding: 10px;
+    
+    header{
+        text-align: center;
+        font-family: DisrespectfulTeenagerFade;
+        color: #007908;
+        font-size: 6rem;
+    }
+}
+
+.container {
+    background-image: url(/media/backgrounds/num.gif);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+table{
+    margin-top: 15px;
+}
+
+td{
+    vertical-align: top;
+    padding: 2px;
+}
+
+.sectionHead{
+    background-image: url(/media/backgrounds/rdr2Splatter.jpg);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    height: 32px;
+    margin-bottom: .25em;
+
+    img{
+        max-height: 20px;
+    }
+}
+
+.main, .blinkies{
+    background-image: url(/media/backgrounds/shatter.png);
+    p, a{
+        font-size: 25px;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+    p{color: white;}
+}
+
+.blinkies img{
+    width: 100%;
+}
+
+.profilePicture{
+    background-image: url(/media/backgrounds/shatter.png);
+    display: flex;
+    justify-content: center;
+
+    img{
+        height: 150px;
+    }
+}
