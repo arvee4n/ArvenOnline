@@ -1,21 +1,20 @@
 @font-face {
   font-family: TimesNewPixel;
-  src: url(/fonts/TimesNewPixel.ttf);
+  src: url(fonts/TimesNewPixel.ttf);
 }
 @font-face {
   font-family: DisrespectfulTeenagerFade;
-  src: url(/fonts/DisrespectfulTeenagerFade.ttf);
+  src: url(fonts/DisrespectfulTeenagerFade.ttf);
 }
 
 lastfm-tracks {
   box-sizing: border-box;
   border: 1px solid #290000;
-  height: 100em;
 }
 
 body{
     min-height: 100vh;
-    background-image: url(/media/backgrounds/pits.gif);
+    background-image: url(media/backgrounds/pits.gif);
     font-family: TimesNewPixel;
     background-color: black;
     background-repeat: no-repeat;
@@ -30,7 +29,7 @@ a{
 
 .banner{
     display: flex;
-    background-image: url(/media/backgrounds/faces.gif);
+    background-image: url(media/backgrounds/faces.gif);
     justify-content: center;
     align-items: center;
     width: 60rem;
@@ -46,7 +45,7 @@ a{
 }
 
 .container {
-    background-image: url(/media/backgrounds/num.gif);
+    background-image: url(media/backgrounds/num.gif);
     width: 1200px;
     margin: 0 auto;
 }
@@ -61,7 +60,7 @@ td{
 }
 
 .sectionHead{
-    background-image: url(/media/backgrounds/rdr2Splatter.jpg);
+    background-image: url(media/backgrounds/rdr2Splatter.jpg);
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -75,7 +74,7 @@ td{
 }
 
 .main, .blinkies{
-    background-image: url(/media/backgrounds/shatter.png);
+    background-image: url(media/backgrounds/bgbarbwire.gif);
     p, a{
         font-size: 25px;
         margin-bottom: 0em;
@@ -88,8 +87,12 @@ td{
     width: 100%;
 }
 
+.navigate{
+    text-align: left;
+}
+
 .profilePicture{
-    background-image: url(/media/backgrounds/shatter.png);
+    background-image: url(media/backgrounds/stars.gif);
     display: flex;
     justify-content: center;
 
