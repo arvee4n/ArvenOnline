@@ -13,7 +13,9 @@ lastfm-tracks {
 }
 
 body{
-    min-height: 100vh;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     background-image: url(media/backgrounds/pits.gif);
     font-family: TimesNewPixel;
     background-color: black;
@@ -35,6 +37,8 @@ a{
     width: 60rem;
     margin: auto;
     padding: 10px;
+    border: 20px solid;
+    border-image: url(media/backgrounds/purpleweb.gif) 20;
     
     header{
         text-align: center;
@@ -48,6 +52,8 @@ a{
     background-image: url(media/backgrounds/num.gif);
     width: 1200px;
     margin: 0 auto;
+    border: 20px solid;
+    border-image: url(media/backgrounds/static.gif) 20;
 }
 
 table{
@@ -99,4 +105,17 @@ td{
     img{
         height: 150px;
     }
+}
+
+#muteBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #007908;
+    background-color: #190e11;
+    border-width: 2px;
+    border-color: #190e11;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 9999;
 }

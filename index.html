@@ -12,8 +12,85 @@ Hey Feller...-->
         <title>☆ ArvenOnline ☆</title>
         <link rel="icon" type="images/x-icon" href="media/branding/logos/arveeWclear.png">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="opening.css">
+
+        <meta property="og:title" content="☆ ArvenOnline ☆"/>
+        <meta property="og:description" content="Welcome to ☆ ArvenOnline ☆!. Beware of flashing lights and music."/>
+        <meta property="og:image" content="https://arvenonline.com/media/branding/embed.png"/>
+        <meta property="og:url" content="https://arvenonline.com"/>
+        <meta property="og:type" content="website"/>
     </head>
     <body>
+      <div class="enterBG" id="enterBG"></div>
+      <div class="centerMid">
+        <h1 id="landing" class="landing" style="color: magenta;">WELCOME TO ☆ ARVENONLINE ☆</h1>
+        <p id="landing" class="landing">Beware of flashing lights and music!!!</p>
+      </div>
+      <div class="centerLow">
+        <button id="enterButton" class="enterButton">Enter?</button>
+      </div>
+      <audio id="bgAudio" preload loop>
+        <source src="media/audio/sewerslvtCyberiaLyr1.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        function toggleMute() {
+          const btn = document.getElementById('muteBtn');
+          audio.muted = !audio.muted;
+          btn.textContent = audio.muted ? 'unMute' : 'Mute';
+        }
+
+        const audio = document.getElementById('bgAudio');
+        const button = document.getElementById('enterButton');
+        const spin = document.getElementById('enterButton');
+        const disapear1 = document.getElementById('enterBG');
+        const disapear2 = document.getElementById('landing');
+        
+        const centerDiv = button.parentElement;
+        const centerMid = disapear2.parentElement;
+
+        if (sessionStorage.getItem('visited')) {
+          disapear1.style.display = 'none';
+          centerDiv.style.display = 'none';
+          disapear2.style.display = 'none';
+          centerMid.style.display = 'none';
+        
+          document.addEventListener('click', function unmute() {
+            audio.play().catch(err => console.log('Audio error:', err));
+            document.removeEventListener('click', unmute);
+          }, { once: true });
+      }
+
+        button.addEventListener('click', () => {
+          sessionStorage.setItem('visited', 'true');
+          spin.classList.toggle('enterSpiral');
+          disapear1.classList.toggle('enterDis');
+          disapear2.classList.toggle('enterDis');
+
+          setTimeout(() => {
+            disapear2.style.display = 'none';
+            centerMid.style.display = 'none';
+          }, 300);
+          setTimeout(() => {
+            disapear1.style.display = 'none';
+            centerDiv.style.display = 'none';
+          }, 1300);
+
+          audio.play().catch(err => console.log('Audio error:', err));
+        });
+    </script>
+
+
+
+
+    <!--Static Icons-->
+    <button id="muteBtn" onclick="toggleMute()">muteMusic</button>
+
+
+
+
+
+
+
       <div class="container">
       <div class="banner"> <!--Header-->
         <header>ArvenOnline</header>

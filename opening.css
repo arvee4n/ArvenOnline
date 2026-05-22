@@ -1,0 +1,115 @@
+@keyframes spiral {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(420deg) scale(90); 
+    }
+
+    97% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes preVis {
+    0%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        opacity: 1;
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes dis {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    51% {
+        opacity: 0;
+    }
+}
+
+.enterBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: preVis 3s ease-in-out infinite;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(media/backgrounds/stars.gif);
+    opacity: 0;
+}
+
+.enterButton {
+    animation: shake 3s ease-in-out infinite;
+    font-family: DisrespectfulTeenagerFade;;
+    font-size: 10rem;
+    font-weight: 700;
+    padding: 0.5rem 1em;
+    color: #007908;
+    opacity: 0;
+    /*background-color: orange;*/
+    background-image: url(media/backgrounds/faces.gif);
+
+    border: 20px solid;
+    border-image: url(media/backgrounds/purpleweb.gif) 20;
+}
+
+.enterSpiral {
+    animation: spiral 1.3s ease-in-out;
+}
+
+.enterDis {
+    animation: dis 1.3s ease-in-out;
+}
+
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(media/backgrounds/num.gif);
+    font-size: 50px;
+    padding: 0.5rem 1rem;
+}
+
+
+/*util*/
+.centerMid {
+    position: fixed;
+    z-index: 9999;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centerLow {
+    position: fixed;
+    z-index: 9999;
+    margin: 0;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
