@@ -1,31 +1,15 @@
-[![](https://arvenonline.me/media/misc/buttons/arvenButton.gif)](https://arvenonline.me/)
+I created this website to learn a little about web design and development as well as express myself in the digital world.
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-I created this website to show off varius aspects of myself. I wanted to customize my online presence and this was the best way to start.
-
-On here you will find this such as:
-
-- My favorite music
-- My favorite games
-- My favorite shows
+On here you can see things such as:
+- My music taste
+- My favorite movies, shows, games, books, manga, etc
+- My collages
+- My psuedo-journal
 - and much more
 
-The site will be frequently updated and I plan on adding many more features and gradually cleaning up the site.
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+The site will be semi-frequently updated and I plan on adding many more features and gradually cleaning up the site.
 
 TO DO:
+ill update in a bit im lazy rn lol
 
-1. 1. [ ] Optimize/Rewrite site
-   - Going to take up most of the workload
-
-2. 2. [ ] Animate lists
-   - [ ] Artists
-   - [ ] Movie
-   - [ ] Games
-   - [ ] Manga
-
-3. 3. [ ] Virtual Pet
-   - A (black?) cat that walks around the webpage
-   - Might not work well idk
+![- ArvenOnline](https://arvenonline.com/media/branding/buttons/arvenButton.gif)
