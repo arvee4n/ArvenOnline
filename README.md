@@ -11,5 +11,7 @@ The site will be semi-frequently updated and I plan on adding many more features
 
 TO DO:
 ill update in a bit im lazy rn lol
+[ ] Add music collection page
+[ ] Apply to CDRing (https://cdring.neocities.org/join)
 
 ![- ArvenOnline](https://arvenonline.com/media/branding/buttons/arvenButton.gif)
