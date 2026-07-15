@@ -11,10 +11,40 @@ Hey Feller...-->
     <head>
         <title>☆ ArvenOnline ☆</title>
         <link rel="icon" type="images/x-icon" href="../media/branding/logos/arveeWclear.png">
+    
+        <style>
+            @font-face {
+                font-family: TimesNewPixel;
+                src: url(../fonts/TimesNewPixel.ttf);
+            }
+
+            body {
+                background-color: black;
+                font-family: TimesNewPixel;
+                background-image: url(../media/backgrounds/stars.gif)
+            }
+
+            a {
+                color: blueviolet;
+            }
+
+            .map{
+                background-color: rgb(27, 0, 0);
+                max-width: 10em;
+                margin: 20px;
+                padding: 10px;
+            }
+        </style>
     </head>
     <body>
+        <div class="map">
         <details open="">
             <summary><a href="../index.html">Home</a></summary>
+                <ul><details open="">
+                    <summary><a href="../diary/diary.html">Journals</a></summary>
+                        <ul><summary><a href="../diary/june26.html">June 2026</a></summary></ul>
+                        <ul><summary><a href="../diary/july26.html">July 2026</a></summary></ul>
+                </details></ul>
             <ul>
                 <summary><a href="../wishlists/wishlists.html">Wishlists</a></summary>
             </ul>
@@ -32,5 +62,6 @@ Hey Feller...-->
                 </details>
             </ul>
         </details>
+        </div>
     </body>
 </html>
