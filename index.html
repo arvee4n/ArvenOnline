@@ -106,14 +106,25 @@ Hey Feller...-->
         <tr>
           <td width="20%;"><!--Left Collumn-->
             <p class="sectionHead"><img src="media/pixels/profile.gif"> About Me <img src="media/pixels/profile.gif"></p>
-            <div class="profilePicture"><img src="media/branding/pfp/4.jpg"></div>
+            <div class="profilePicture"><img src="media/branding/pfp/4.jpg" id="pfp" onclick="changeImage()"></div>
+
             <div class="main">
+              <h9 id="chill"></h9>
               <p><b>Name:</b> arveecom</p>
               <p><b>Age:</b> old enough</p>
               <p><b>Location:</b> California, United States</p>
             </div>
 
-            <p class="sectionHead" style="font-size: 25px; background-image: url(media/backgrounds/swirl.gif)"><img src="media/pixels/floppy.gif" style="max-height: 24px;"><a href="https://arvenonline.atabook.org/">Sign My Guestbook</a><img src="media/pixels/floppy.gif" style="max-height: 24px;"></p>
+            <script>
+              function changeImage(){
+                let img = document.getElementById("pfp");
+                img.src = "media/branding/pfp/5.jpg";
+
+                document.getElementById("chill").textContent="(Canada is chill asf lmao)";
+              }
+            </script>
+
+            <p class="sectionHead" style="font-size: 25px; background-image: url(media/backgrounds/swirl.gif)"><img src="media/pixels/floppy.gif" style="max-height: 24px;"><a href="https://arvenonline.atabook.org/">Sign My Guestbook</a></p>
 
             <p class="sectionHead"><img src="media/pixels/chainrt.gif"> Links <img src="media/pixels/chainrt.gif"></p>
             <div class="main" style="text-align: center;">
@@ -199,7 +210,7 @@ Hey Feller...-->
           <td width="20%"> <!--Right Collumn-->
             <p class="sectionHead"><img src="media/pixels/compass.gif"> Navigate <img src="media/pixels/compass.gif"></p>
               <div class="main">
-                <a href="#">Home</a>
+                <a href="#">/ Home</a>
                 <p><a href="diary/diary.html">| Journals</a></p>
                 <p><a href="diary/june26.html">\ - June 2026</a></p>
                 <p><a href="diary/july26.html">\ - July 2026</a></p>
