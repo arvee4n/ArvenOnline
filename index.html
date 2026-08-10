@@ -21,83 +21,11 @@ Hey Feller...-->
         <meta property="og:type" content="website"/>
     </head>
     <body>
-<!--      <div class="enterBG" id="enterBG"></div>
-      <div class="centerMid">
-        <h1 id="landing" class="landing" style="color: magenta;">WELCOME TO ☆ ARVENONLINE ☆</h1>
-        <p id="landing" class="landing">Beware of flashing lights and music!!!</p>
-        <p id="landing" class="landing">
-          <img src="media/buttons/nifc.jpg">
-          <img src="media/buttons/upallnight.gif">
-          <img src="media/buttons/desktop.gif">
-        </p>
-      </div>
-      <div class="centerLow">
-        <button id="enterButton" class="enterButton">Enter?</button>
-      </div>
-      <audio id="bgAudio" preload loop>
-        <source src="media/audio/#" type="audio/mpeg">
-      </audio>
-      <script>
-        function toggleMute() {
-          const btn = document.getElementById('muteBtn');
-          audio.muted = !audio.muted;
-          btn.textContent = audio.muted ? 'unMute' : 'Mute';
-        }
-
-        const audio = document.getElementById('bgAudio');
-        const button = document.getElementById('enterButton');
-        const spin = document.getElementById('enterButton');
-        const disapear1 = document.getElementById('enterBG');
-        const disapear2 = document.getElementById('landing');
-        
-        const centerDiv = button.parentElement;
-        const centerMid = disapear2.parentElement;
-
-        if (sessionStorage.getItem('visited')) {
-          disapear1.style.display = 'none';
-          centerDiv.style.display = 'none';
-          disapear2.style.display = 'none';
-          centerMid.style.display = 'none';
-        
-          document.addEventListener('click', function unmute() {
-            audio.play().catch(err => console.log('Audio error:', err));
-            document.removeEventListener('click', unmute);
-          }, { once: true });
-      }
-
-        button.addEventListener('click', () => {
-          sessionStorage.setItem('visited', 'true');
-          spin.classList.toggle('enterSpiral');
-          disapear1.classList.toggle('enterDis');
-          disapear2.classList.toggle('enterDis');
-
-          setTimeout(() => {
-            disapear2.style.display = 'none';
-            centerMid.style.display = 'none';
-          }, 300);
-          setTimeout(() => {
-            disapear1.style.display = 'none';
-            centerDiv.style.display = 'none';
-          }, 1300);
-
-          audio.play().catch(err => console.log('Audio error:', err));
-        });
-    </script>
-
-
-
-
     <!--Static Icons-->
-    <!-- <button id="muteBtn" onclick="toggleMute()">muteMusic</button> -->
     <a href="https://www.instagram.com/rsandrxmeda/"><img src="media/pixels/transBlink.gif" style="position: fixed; bottom: 20px; right: 20px; cursor: pointer;"></a>
-
-
-
-
-
-
-
-      <div class="container">
+    <p class="sectionHead" style="position: fixed; bottom: 20px; left: 20px; cursor: pointer; background-image: url(media/backgrounds/static.gif); font-size: 25px;"><img src="media/pixels/floppy.gif" style="max-height: 100eh;"><a href="https://arvenonline.atabook.org/">Sign My Guestbook</a><img src="media/pixels/floppy.gif" style="max-height: 1em;"></p>
+    
+    <div class="container">
       <div class="banner"> <!--Header-->
         <header>ArvenOnline</header>
       </div>
@@ -123,8 +51,6 @@ Hey Feller...-->
                 document.getElementById("chill").textContent="(I miss Canada lmao)";
               }
             </script>
-
-            <p class="sectionHead" style="font-size: 25px; background-image: url(media/backgrounds/swirl.gif)"><img src="media/pixels/floppy.gif" style="max-height: 24px;"><a href="https://arvenonline.atabook.org/">Sign My Guestbook</a></p>
 
             <p class="sectionHead"><img src="media/pixels/chainrt.gif"> Links <img src="media/pixels/chainrt.gif"></p>
             <div class="main" style="text-align: center;">
@@ -154,10 +80,12 @@ Hey Feller...-->
               <p>In the meantime, feel free to take a look around and see what the site has to offer!</p>
             </div>
 
+            
             <p class="sectionHead"><img src="media/pixels/starblink.gif"> UPDATES <img src="media/pixels/starblink.gif"></p>
             <div class="main">
-              <p>I am currently working on bring online a <a href="diary/diary.html">"diary/blog/journal" page</a> on the site that would catalouge and archive the things I post under the <a href="#CI">"Current Intrest"</a> tab.</p>
+              <p>I'm working on designing both the music collection page and the collage page again. I am slowly working on it tho so idk how long it'll be till I publish it.</p>
             </div>
+            
             
             <!--Twitch Embed-->
             <div class="main">
